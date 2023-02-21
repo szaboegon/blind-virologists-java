@@ -5,9 +5,11 @@ Assignment made for Project laboratory in collaboration with:
 [@biroferenc075](https://github.com/biroferenc075)
 [@balintos29](https://github.com/balintos29)
 [@fergem](https://github.com/fergem)
+
 (2021)
 
 Original description in hungarian:
+
 A világtalan virológusok világa
 
 Egy pusztító biológiai katasztrófában mindenki elvesztette a látását. A városban virológusok kóborolnak és gyógymódot kutatnak.
