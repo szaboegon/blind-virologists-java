@@ -22,5 +22,6 @@ Sokféle védőfelszerelés létezik. Van védőköpeny, amely az ágenseket 82,
 A virológusok a vándorlásuk során találkozhatnak egymással. Találkozáskor elmehetnek egymás mellett, ágenst kenhetnek a másik virológusra, vagy, amíg a másik virológus lebénult állapotban van, elvehetik a másik anyagkészletét és felszerelését.
 A játékot az a virológus nyeri, aki legelőször megtanulja az összes fellelhető genetikai kódot. A játéktér eltérő oldalszámú sokszögekből álló rácsot alkot, a virológusok ennek mezőin (szabad terület, raktár, óvóhely, laboratórium stb.) lépkedhetnek.
 
-![image](https://user-images.githubusercontent.com/100372543/220425994-8dc3c4af-2540-4f8a-a84c-50d069938617.png)
+![image](https://user-images.githubusercontent.com/100372543/220426710-b47f8fe4-f9b9-4b1b-89b1-e32bffa385a0.png)
+
 
