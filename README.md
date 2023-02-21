@@ -1,16 +1,14 @@
-# projlab_blind_virologists
-"Blind Virologists" assignment for Project Laboratory, originally made in 2021
+# blind-virologists-java
 
-in cooperation with:
+Assignment made for Project laboratory in collaboration with:
 [@rahmidaniel](https://github.com/rahmidaniel)
-[@szaboegon](https://github.com/szaboegon)
+[@biroferenc075](https://github.com/biroferenc075)
 [@balintos29](https://github.com/balintos29)
 [@fergem](https://github.com/fergem)
+(2021)
 
-Original task description (in Hungarian):
-
+Original description in hungarian:
 A világtalan virológusok világa
-(utolsó módosítás: 2022-02-18)
 
 Egy pusztító biológiai katasztrófában mindenki elvesztette a látását. A városban virológusok kóborolnak és gyógymódot kutatnak.
 A különféle vírusok genetikai kódja egy-egy laboratórium falára van felkarcolva. Ahhoz, hogy egy virológus a genetikai kódot megismerje, el kell jutnia az adott laboratóriumba, és le kell tapogatnia a genetikai kódot. Ez alapján lehet majd vagy vakcinát, vagy magát a vírust előállítani.
@@ -22,4 +20,5 @@ Sokféle védőfelszerelés létezik. Van védőköpeny, amely az ágenseket 82,
 A virológusok a vándorlásuk során találkozhatnak egymással. Találkozáskor elmehetnek egymás mellett, ágenst kenhetnek a másik virológusra, vagy, amíg a másik virológus lebénult állapotban van, elvehetik a másik anyagkészletét és felszerelését.
 A játékot az a virológus nyeri, aki legelőször megtanulja az összes fellelhető genetikai kódot. A játéktér eltérő oldalszámú sokszögekből álló rácsot alkot, a virológusok ennek mezőin (szabad terület, raktár, óvóhely, laboratórium stb.) lépkedhetnek.
 
-![image](https://user-images.githubusercontent.com/100433458/220363113-dac51b7e-24fe-4940-9e46-e9a3f7fed48e.png)
+![image](https://user-images.githubusercontent.com/100372543/220425994-8dc3c4af-2540-4f8a-a84c-50d069938617.png)
+
