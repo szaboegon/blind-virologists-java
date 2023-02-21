@@ -1,0 +1,79 @@
+map lab Lab-1; shelter Shelter-1; storage Storage-1; lab Lab-2; storage Storage-2; lab Lab-3; city City-1; shelter Shelter-2; shelter Shelter-3; storage Storage-3; city City-2; lab Lab-4; city City-3; shelter Shelter-4; lab Lab-5
+Storage-2 Shelter-1 Storage-1
+Lab-1 Storage-2 Storage-1 Lab-3 City-1
+Lab-1 Shelter-1 City-1 Lab-2
+Storage-1 City-1 Shelter-2
+Lab-1 Shelter-1 Lab-3 Shelter-3
+Storage-2 Shelter-1 City-1 Storage-3 City-3 Shelter-3
+Shelter-1 Storage-1 Lab-2 Shelter-2 City-2 Storage-3 Lab-3
+Lab-2 City-1 City-2
+Storage-2 Lab-3 City-3 Lab-4
+Lab-3 City-1 City-2 Shelter-4 City-3
+Storage-3 City-1 Shelter-2 Lab-5 Shelter-4
+Shelter-3 City-3
+Shelter-3 Lab-4 Lab-3 Storage-3 Shelter-4
+City-3 Storage-3 City-2 Lab-5
+Shelter-4 City-2
+virologist Virologist-1
+virologist Virologist-2
+virologist Virologist-3
+materials v1Curr 0 0
+materials v2Curr 0 0
+materials v3Curr 0 0
+materials v1Max 10 10
+materials v2Max 10 10
+materials v3Max 10 10
+placeMaterials v1Curr -v Virologist-1
+placeMaterials v2Curr -v Virologist-2
+placeMaterials v3Curr -v Virologist-3
+placeMaterials v1Max -v -m Virologist-1
+placeMaterials v2Max -v -m Virologist-2
+placeMaterials v3Max -v -m Virologist-3
+move Virologist-1 City-1
+move Virologist-2 City-1
+move Virologist-3 City-1
+statusEffect Dead dead:true duration:-1
+statusEffect Reflect reflect:true duration:-1
+statusEffect BagSize bagsize:10 duration:-1
+statusEffect Immunity1 immunity:0.7 duration:-1
+equipment gloves Reflect 3
+equipment cloak Immunity1 -1
+equipment axe Dead 1
+equipment bag BagSize -1
+placeEquipment gloves -f Shelter-1
+placeEquipment cloak -f Shelter-2
+placeEquipment axe -f Shelter-3
+placeEquipment bag -f Shelter-4
+materials s1Curr 0 10
+materials s2Curr 10 0
+materials s3Curr 5 5
+materials s1Max 10 10
+materials s2Max 10 10
+materials s3Max 10 10
+placeMaterials s1Curr -f Storage-1
+placeMaterials s2Curr -f Storage-2
+placeMaterials s3Curr -f Storage-3
+placeMaterials s1Max -f -m Storage-1
+placeMaterials s2Max -f -m Storage-2
+placeMaterials s3Max -f -m Storage-3
+statusEffect BearEf bear:true duration:-1
+statusEffect ChoreaEf chorea:true duration:3
+statusEffect Immunity2Ef immunity:1 duration:2
+statusEffect ParalyzedEf paralyzed:true duration:1
+statusEffect AmnesiaEf amnesia:true duration-1
+materials BearMat 10 10
+materials ChoreaMat 1 3
+materials Immunity2Mat 4 0
+materials ParalyzedMat 0 4
+materials AmnesiaMat 3 3
+agent BearAgent BearEf BearMat
+agent Chorea ChoreaEf ChoreaMat
+agent Immunity Immunity2Ef Immunity2Mat
+agent Paralyzed ParalyzedEf ParalyzedMat
+agent Amnesia AmnesiaEf AmnesiaMat
+placeAgent BearAgent -f Lab-1 -i
+placeAgent Immunity -f Lab-1
+placeAgent Chorea -f Lab-2
+placeAgent Paralyzed -f Lab-3
+placeAgent Amnesia -f Lab-4
+placeAgent Immunity -f Lab-5

@@ -1,0 +1,15 @@
+Lab-1,50,40
+Shelter-1,120,90
+Storage-1,180,40
+Lab-2,300,40
+Storage-2,40,140
+Lab-3,140,180
+City-1,235,140
+Shelter-2,300,160
+Shelter-3,50,230
+Storage-3,210,230
+City-2,270,225
+Lab-4,20,280
+City-3,120,280
+Shelter-4,200,300
+Lab-5,300,290
